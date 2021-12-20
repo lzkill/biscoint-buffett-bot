@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "resolveJsonModule": true,
+    // Após a criação de novos paths o VSCode deve sofrer um refresh
+    // com o comando 'Reload Window'
+    "paths": {
+      "@bot/*": ["src/bot/*"],
+      "@config/*": ["src/config/*"],
+      "@logger/*": ["src/logger/*"],
+      "@shared/*": ["src/shared/*"]
+    }
+  },
+}
