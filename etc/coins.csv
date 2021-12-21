@@ -1,0 +1,6 @@
+open;;close;
+operation;coin;operation;coin
+buy;brl;sell;cripto
+sell;brl;buy;cripto
+buy;cripto;sell;brl
+sell;cripto;buy;brl

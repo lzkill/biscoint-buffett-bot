@@ -1,0 +1,108 @@
+{
+  "app": {
+    "port": 5000
+  },
+  "biscoint": {
+    "apiKey": "",
+    "apiSecret": "",
+    "apiUrl": "https://api.biscoint.io/",
+    "apiTimeout": 30000
+  },
+  "bot": {
+    "name": "bbb",
+    "initPrices": 1000,
+    "portfolio": [
+      {
+        "name": "long_dca_btc_brl",
+        "pair": "BTC-BRL",
+        "position": "long",
+        "takeProfit": 0.5,
+        "profitMode": "dca",
+        "profitCoin": "BRL",
+        "entry": {
+          "volume": 5,
+          "maxSpread": 0.8
+        },
+        "grid": {
+          "volume": 6.61,
+          "volumeScale": 5,
+          "stepSize": 0.3,
+          "stepScale": 50,
+          "trades": 10
+        },
+        "dryRun": false
+      },
+      {
+        "name": "long_dca_eth_brl",
+        "pair": "ETH-BRL",
+        "position": "long",
+        "takeProfit": 0.5,
+        "profitMode": "dca",
+        "profitCoin": "BRL",
+        "entry": {
+          "volume": 5,
+          "maxSpread": 0.8
+        },
+        "grid": {
+          "volume": 6.61,
+          "volumeScale": 5,
+          "stepSize": 0.3,
+          "stepScale": 50,
+          "trades": 10
+        },
+        "dryRun": false
+      },
+      {
+        "name": "short_dca_btc_brl",
+        "pair": "BTC-BRL",
+        "position": "short",
+        "takeProfit": 0.5,
+        "profitMode": "dca",
+        "profitCoin": "BTC",
+        "entry": {
+          "volume": 10,
+          "maxSpread": 0.8
+        },
+        "grid": {
+          "volume": 13.23,
+          "volumeScale": 5,
+          "stepSize": 0.3,
+          "stepScale": 50,
+          "trades": 10
+        },
+        "dryRun": false
+      },
+      {
+        "name": "short_dca_eth_brl",
+        "pair": "ETH-BRL",
+        "position": "short",
+        "takeProfit": 0.5,
+        "profitMode": "dca",
+        "profitCoin": "ETH",
+        "entry": {
+          "volume": 10,
+          "maxSpread": 0.8
+        },
+        "grid": {
+          "volume": 13.23,
+          "volumeScale": 5,
+          "stepSize": 0.3,
+          "stepScale": 50,
+          "trades": 10
+        },
+        "dryRun": false
+      }
+    ],
+    "hideKnownErrors": true,
+    "tradeEnabled": true
+  },
+  "telegram": {
+    "token": "",
+    "chatId": "",
+    "chatEnabled": false
+  },
+  "papertrail": {
+    "token": "",
+    "logEnabled": false
+  }
+}

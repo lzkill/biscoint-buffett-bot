@@ -1,0 +1,5 @@
+name,pair,position,takeProfit,profitMode,profitCoin,entry/volume,entry/maxSpread,grid/volume,grid/volumeScale,grid/stepSize,grid/stepScale,grid/trades,dryRun
+long_dca_btc_brl,BTC-BRL,long,0.5,dca,BRL,5,0.8,6.61,5,0.3,50,10,false
+long_dca_eth_brl,ETH-BRL,long,0.5,dca,BRL,5,0.8,6.61,5,0.3,50,10,false
+short_dca_btc_brl,BTC-BRL,short,0.5,dca,BTC,10,0.8,13.23,5,0.3,50,10,false
+short_dca_eth_brl,ETH-BRL,short,0.5,dca,ETH,10,0.8,13.23,5,0.3,50,10,false
